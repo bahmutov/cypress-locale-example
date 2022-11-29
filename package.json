@@ -1,8 +1,9 @@
 {
   "name": "cypress-locale-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Override Chrome browser locale and timezone from Cypress test",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
