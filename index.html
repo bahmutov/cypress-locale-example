@@ -1,0 +1,10 @@
+<body>
+  <h1>Locale</h1>
+  <output id="output" />
+  <script>
+    const options = Intl.DateTimeFormat().resolvedOptions()
+    document.getElementById(
+      'output',
+    ).innerText = `locale: ${options.locale} timeZone: ${options.timeZone}`
+  </script>
+</body>
